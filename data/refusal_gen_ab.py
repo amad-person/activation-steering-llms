@@ -32,6 +32,7 @@ for spl_name in split_names:
                     "question": full_question,
                     "answer_matching_behavior": answer_matching_behavior,
                     "answer_not_matching_behavior": answer_not_matching_behavior,
+                    "category": item["category"]
                 }
             )
 
