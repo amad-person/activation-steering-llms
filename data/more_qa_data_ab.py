@@ -33,5 +33,6 @@ for item in truthful_qa_rows:
         )
 
 print("Number of samples:", len(A_B))
+shuffle(A_B)
 with open(f"more_qa_data_A_B.json", "w") as f:
     json.dump(A_B, f)
